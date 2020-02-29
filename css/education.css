@@ -105,15 +105,15 @@
     left: -34px;
 }
 
-#education .education-container .info{
+#education .education-container .info2{
     padding: 50px 0;
 }
 
-#education .education-container .info .info-box{
+#education .education-container .info2 .info-box{
     padding: 50px 30px 0;
 }
 
-#education .education-container .info .info-box h4{
+#education .education-container .info2 .info-box h4{
     color: #0be1c1;
     font-size: 1.2rem;
     font-weight: 900;
@@ -121,7 +121,7 @@
     letter-spacing: 5px;    
 }
 
-#education .education-container .info .info-box .date{
+#education .education-container .info2 .info-box .date{
     color: #52b8ff;
     font-size: .9rem;
     font-weight: 600;
@@ -131,7 +131,7 @@
     display: block;
 }
 
-#education .education-container .info .info-box p{
+#education .education-container .info2 .info-box p{
     color: #616161;
     font-size: 1rem;
     font-weight: 400;
@@ -187,11 +187,11 @@
         
     }
 
-    #education .education-container .info .info-box h4{
+    #education .education-container .info2 .info-box h4{
         font-size: .9rem;
     }
 
-    #education .education-container .info .info-box .date{
+    #education .education-container .info2 .info-box .date{
         font-size: .8rem;
     }
 

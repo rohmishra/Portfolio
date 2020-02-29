@@ -31,7 +31,7 @@ class Particle {
 	draw() {
 		ctx.beginPath();
 		ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-		ctx.fillStyle = '#8c5523';
+		ctx.fillStyle = '#302b63';
 		ctx.fill();
 	}
 	//Check particle position, check mouse position, move the particle, draw the particle
@@ -96,7 +96,7 @@ function connect() {
 				(particlesArray[a].y - particlesArray[b].y) * (particlesArray[a].y - particlesArray[b].y);
 			if (distance < canvas.width / 7 * (canvas.height / 7)) {
 				opacityValue = 1 - distance / 20000;
-				ctx.strokeStyle = 'rgba(140,85,31,1)' + opacityValue + ')';
+				ctx.strokeStyle = '#000046' + opacityValue + ')';
 				ctx.lineWidth = 1;
 				ctx.beginPath();
 				ctx.moveTo(particlesArray[a].x, particlesArray[a].y);
