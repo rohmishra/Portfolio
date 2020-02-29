@@ -1,0 +1,29 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import "style.css";
+@import "top.css";
+@import "skills.css";
+@import "project.css";
+@import "education.css";
+@import "about-me.css";
+@import "footer.css";
+
+body{
+    background-color: #1b1b1b; 
+}
+
+
+/*.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}*/
+
+@media only screen and (max-width: 960px){
+    .container{width: 100%}
+}
+
+/* Phones */
+
+@media only screen and (max-width: 767px){
+
+}

@@ -1,0 +1,171 @@
+#about-me{
+    padding: 80px 15px;
+}
+
+
+#about-me .title{
+    position: relative;
+    width: 240px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*#about-me .title .square{
+    background: #409cce;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 23px;
+}*/
+
+#about-me .title h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0be1c1;
+    z-index: 1;
+    position: relative;
+    letter-spacing: 4px;
+}
+
+#about-me .about-me-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    padding: 100px 0;
+    
+}
+
+#about-me .about-me-container .test-center{
+    background: #1b3430;
+    padding: 60px;
+    -webkit-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+    -moz-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+    box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+
+}
+
+#about-me .about-me-container .test-center .header{
+    display: flex;
+    padding-bottom: 50px;
+    
+    
+}
+
+#about-me .about-me-container .test-center .header .image{
+    width: 150px;
+    height: 150px;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important; 
+}
+
+#about-me .about-me-container .test-center .header .image img{
+    width: 150px;
+     
+}
+
+#about-me .about-me-container .test-center .header .info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+     
+}
+
+#about-me .about-me-container .test-center .header .info h4{
+    color: #0be1c1;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem; 
+}
+
+#about-me .about-me-container .test-center .header .info span{
+    color: #fd1056;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px; 
+}
+
+#about-me .about-me-container .test-center p{
+    color: #616161;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    font-size: 1.5rem; 
+}
+
+#about-me .about-me-container .test-sides{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#about-me .about-me-container .test-sides .person-img{
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-color: #f2f3f5 !important;
+    height: 100%;
+    width: 100%;
+}
+
+#about-me .about-me-container .test-sides .person-img .hover-bg{
+    background: rgba(255, 53, 53, 0);
+    height: 100%;
+    width: 100%;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+
+}
+
+#about-me .about-me-container .test-sides:hover .person-img .hover-bg{
+    background: rgba(255, 53, 53, .8);
+    height: 100%;
+    width: 100%;
+    
+}
+
+#about-me .about-me-container .test-sides .person-img .hover-bg .name{
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all .2s ease-in-out .2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transform: translate3d(0, 50px, 0);
+    opacity: 0;
+}
+
+#about-me .about-me-container .test-sides:hover .person-img .hover-bg .name{
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all .2s ease-in-out .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+/*Tablets */
+
+@media only screen and (max-width: 960px){
+    
+}
+/*Phones */
+
+@media only screen and (max-width: 767px){
+    
+}

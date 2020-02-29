@@ -1,0 +1,203 @@
+#education{
+    padding: 80px, 15px;
+    
+}
+
+#education .large-title{
+    color: #fd1056;
+    font-weight: 900;
+    font-size: 4.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#education .education-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#education .education-container .large-icon .square{
+    border: 15px solid #52b8ff;
+    padding: 5px;
+    display: inline-block;
+    position: relative; 
+    top: -80px;
+    left: 141px;
+}
+
+#education .education-container .large-icon .square .blue-box{
+    width: 150px;
+    height: 150px;
+    background: #52b8ff;
+    padding: 5px;
+    color:  white;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+}
+
+#education .education-container .large-icon .circle{
+    border: 15px solid #3cbe42;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 119px;
+    left: 149px;
+    
+}
+
+#education .education-container .large-icon .white-box{
+    color: #3cbe42; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+#education .education-container .large-icon .tri{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 130px 190px 130px;
+    border-color: transparent transparent #ff5253 transparent;
+    position: relative;
+    left: 108px;
+    top: 108px;
+}
+
+#education .education-container .large-icon .tri .white-tbox{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    
+    border-width: 0 93.75px 138.75px 93.75px;
+    border-color: transparent transparent #1d1d1d transparent;
+    position: absolute;
+    
+    left: -94px;
+    top: 33px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ff5253;
+}
+
+#education .education-container .large-icon .tri .white-tbox .text{
+    position: relative;
+    /*top: 98px;
+    left: -29px;*/
+    top: 84px;
+    left: -34px;
+}
+
+#education .education-container .info{
+    padding: 50px 0;
+}
+
+#education .education-container .info .info-box{
+    padding: 50px 30px 0;
+}
+
+#education .education-container .info .info-box h4{
+    color: #0be1c1;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;    
+}
+
+#education .education-container .info .info-box .date{
+    color: #52b8ff;
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    padding: 15px 0;
+    display: block;
+}
+
+#education .education-container .info .info-box p{
+    color: #616161;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 1.5;
+}
+
+/*Tablets */
+
+@media only screen and (max-width: 960px){
+    
+    #education .large-title {
+        font-size: 3.5rem;
+        left: 0;
+        
+    }
+
+    #education .education-container .large-icon .square {
+        border: 15px solid #52b8ff;
+        padding: 5px;
+        display: inline-block;
+        position: relative;
+        top: 42px;
+        left: 42px;
+    }
+
+    #education .education-container .large-icon .circle {
+        border: 20px solid #3cbe42;
+        padding: 5px;
+        display: inline-block;
+        border-radius: 50%;
+        position: relative;
+        top: 42px;
+        left: 22px;
+    }
+}
+/*Phones */
+
+@media only screen and (max-width: 767px){
+    #education .education-container{
+        grid-template-columns: 1fr;
+    }
+    
+    #education .education-container .large-icon{
+        display: none;
+    }
+
+    #education .large-title {
+        font-size: 3rem;
+        left: 0;
+        
+    }
+
+    #education .education-container .info .info-box h4{
+        font-size: .9rem;
+    }
+
+    #education .education-container .info .info-box .date{
+        font-size: .8rem;
+    }
+
+    /*#education .education-container .info .info-box {
+        padding: 50px 20px 0;
+    }*/
+
+    
+}

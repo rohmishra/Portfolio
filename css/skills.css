@@ -1,0 +1,117 @@
+#skills{
+    padding: 80px 15px;
+}
+
+#skills .title{
+    position: relative;
+    width: 240px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*#skills .title .circle{
+    background: #409cce;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 23px;
+}*/
+
+#skills .title h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0be1c1;
+    z-index: 1;
+    position: relative;
+    letter-spacing: 4px;
+}
+
+#skills .skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+} 
+
+#skills .skills-container .box{
+    background: rgba(255, 255, 255, 0);
+    transition: all .4s ease-in-out;
+    padding: 40px;
+}
+#skills .skills-container .box:hover{
+    background: #1b3430;
+    -webkit-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+    -moz-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+    box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+}
+
+#skills .skills-container .box .fas{
+    font-size: 2rem;
+    margin-bottom: 2rem;  
+}
+
+#skills .skills-container .box .fab{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+#skills .skills-container .box h5{
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+
+}
+
+#skills .skills-container .box p{
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #616161;
+}
+
+#skills .skills-container .box.blue{
+    border-bottom: 2px solid #52b8ff;
+}
+
+#skills .skills-container .box.green{
+    border-bottom: 2px solid #a74437;
+}
+
+#skills .skills-container .box.red{
+    border-bottom: 2px solid #51a76d;
+}
+
+/*Tablets */
+
+@media only screen and (max-width: 960px){
+    #skills .skills-container{
+        grid-template-columns: 100%;
+    }
+
+    #skills .skills-container .box{
+        background: #1b3430;
+    -webkit-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+    -moz-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+    box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+    }
+}
+/*Phones */
+
+@media only screen and (max-width: 767px){
+    #skills .skills-container{
+        grid-template-columns: 100%;
+    }
+
+    #skills .skills-container .box{
+    background: #1b3430;
+    -webkit-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+    -moz-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+    box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+    }
+}

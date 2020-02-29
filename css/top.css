@@ -1,0 +1,96 @@
+#top {
+    padding: 80px, 0;
+}
+
+#top .container {
+    position: relative !important;
+    height: 100vh;
+}
+
+#top canvas,
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+#top canvas {
+    border: 1px solid red;
+}
+
+
+
+.info {
+    text-align: center;
+    padding: 15px;
+    align-items: center;
+    position: center;
+    
+
+}
+
+
+.info h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fd1056;
+    margin-bottom: 2rem;
+    z-index: 1;
+    position: relative;
+}
+
+.info p {
+    color: #616161;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    z-index: 1;
+    position: relative;
+}
+
+.info a {
+    color: #0be1c1;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-weight: .9rem;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #0be1c1;
+    z-index: 1;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+
+
+/*Tablets */
+
+@media only screen and (max-width: 960px) {
+    #top .container {
+        padding: 0 0 80px;
+    }
+
+    #top .info .art {
+        display: initial;
+    }
+
+    #top .img .backgroung-img {
+        height: 100vh;
+    }
+}
+
+/*Phones */
+
+@media only screen and (max-width: 767px) {
+    #top .container {
+        padding: 0 0 80px;
+    }
+
+    #top .info .art {
+        display: none;
+    }
+
+    #top .img .backgroung-img {
+        height: 100vh;
+    }
+}
