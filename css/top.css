@@ -34,21 +34,23 @@
 
 
 .info h1 {
-    font-size: 2rem;
+    font-size: 4rem;
     text-transform: uppercase;
     font-weight: 600;
-    color: #fd1056;
+    color: white;
+    text-shadow: 4px 4px #000000;
     margin-bottom: 2rem;
     z-index: 1;
     position: relative;
 }
 
 .info p {
-    color: #616161;
+    color: White;
     text-transform: capitalize;
     margin-bottom: 2rem;
     z-index: 1;
     position: relative;
+    font-size: 1.2rem;
 }
 
 .info a {

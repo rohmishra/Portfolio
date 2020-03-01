@@ -4,7 +4,7 @@
 }
 
 #education .large-title{
-    color: #fd1056;
+    color: #0be1c1;
     font-weight: 900;
     font-size: 4.5rem;
     text-align: center;
@@ -19,7 +19,7 @@
 }
 
 #education .education-container .large-icon .square{
-    border: 15px solid #52b8ff;
+    border: 15px solid #1976D2;
     padding: 5px;
     display: inline-block;
     position: relative; 
@@ -30,7 +30,7 @@
 #education .education-container .large-icon .square .blue-box{
     width: 150px;
     height: 150px;
-    background: #52b8ff;
+    background: #1976D2;
     padding: 5px;
     color:  white;
     text-transform: uppercase;
@@ -43,18 +43,18 @@
 }
 
 #education .education-container .large-icon .circle{
-    border: 15px solid #3cbe42;
+    border: 15px solid #F50057;
     padding: 5px;
     display: inline-block;
     border-radius: 50%;
     position: relative;
     top: 119px;
-    left: 149px;
+    left: 103px;
     
 }
 
 #education .education-container .large-icon .white-box{
-    color: #3cbe42; 
+    color: #F50057; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,10 +73,10 @@
     height: 0;
     border-style: solid;
     border-width: 0 130px 190px 130px;
-    border-color: transparent transparent #ff5253 transparent;
+    border-color: transparent transparent #AA00FF transparent;
     position: relative;
     left: 108px;
-    top: 108px;
+    top: 17px;
 }
 
 #education .education-container .large-icon .tri .white-tbox{
@@ -85,7 +85,7 @@
     border-style: solid;
     
     border-width: 0 93.75px 138.75px 93.75px;
-    border-color: transparent transparent #1d1d1d transparent;
+    border-color: transparent transparent #243B55 transparent;
     position: absolute;
     
     left: -94px;
@@ -94,7 +94,7 @@
     font-size: 1.1rem;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #ff5253;
+    color: #AA00FF;
 }
 
 #education .education-container .large-icon .tri .white-tbox .text{
@@ -132,7 +132,7 @@
 }
 
 #education .education-container .info2 .info-box p{
-    color: #616161;
+    color: #CFD8DC;
     font-size: 1rem;
     font-weight: 400;
     text-transform: capitalize;
@@ -157,7 +157,7 @@
         display: inline-block;
         position: relative;
         top: 42px;
-        left: 42px;
+        left: 119px;
     }
 
     #education .education-container .large-icon .circle {
@@ -166,8 +166,19 @@
         display: inline-block;
         border-radius: 50%;
         position: relative;
-        top: 42px;
-        left: 22px;
+        top: 1px;
+        left: 49px;
+    }
+
+    #education .education-container .large-icon .tri{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 130px 190px 130px;
+        border-color: transparent transparent #ff5253 transparent;
+        position: relative;
+        left: 108px;
+        top: -49px;
     }
 }
 /*Phones */

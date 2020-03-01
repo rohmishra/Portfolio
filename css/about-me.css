@@ -41,11 +41,11 @@
 }
 
 #about-me .about-me-container .test-center{
-    background: #1b3430;
+    background: #37474F;
     padding: 60px;
-    -webkit-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
-    -moz-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
-    box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+    -webkit-box-shadow: 0px 2px 75px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 75px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 75px 1px rgba(0,0,0,0.75);
 
 }
 
@@ -66,6 +66,7 @@
 
 #about-me .about-me-container .test-center .header .image img{
     width: 150px;
+    
      
 }
 
@@ -82,22 +83,25 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
+    font-size: 2rem; 
 }
 
 #about-me .about-me-container .test-center .header .info1 span{
     color: #fd1056;
     font-weight: 400;
     text-transform: capitalize;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
+    letter-spacing: 2px;
+    font-size: 1.5rem; 
 }
 
 #about-me .about-me-container .test-center p{
-    color: #616161;
+    color: #CFD8DC;
     font-weight: 400;
     letter-spacing: 2px;
     line-height: 1.7;
-    font-size: 1.5rem; 
+    font-size: 1.2rem; 
 }
 
 #about-me .about-me-container .test-sides{
@@ -106,14 +110,16 @@
     align-items: center; 
 }
 
-#about-me .about-me-container .test-sides .person-img{
+/*#about-me .about-me-container .test-sides .person-img{
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-color: #f2f3f5 !important;
+    clip-path: circle(40%);
+    -webkit-clip-path: circle(40%);
     height: 100%;
     width: 100%;
-}
+}*/
 
 #about-me .about-me-container .test-sides .person-img .hover-bg{
     background: rgba(255, 53, 53, 0);
