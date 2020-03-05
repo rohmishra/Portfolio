@@ -1,0 +1,224 @@
+/* Google Fonts:
+    Karla: Regular, Bold, Bolditalic
+    Space Mono: Regular, Italic
+*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,700&family=Space+Mono:ital@0;1&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "main main navi"
+        "main main designsol"
+        "main main myworks"
+        "hire foot foot";
+}
+
+/* ---GENERAL STYLES */
+p,
+a,
+small {
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+big {
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*  Padding */
+nav,
+main,
+section,
+footer {
+    padding: 38px 83px;
+}
+
+/* ---SECTIONS--- */
+
+/* navigation */
+nav {
+    background-color: #ffffff80;
+    grid-area: navi;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+nav>li,
+li>a {
+    display: inline;
+    text-transform: uppercase;
+    margin: 0px 12px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+nav li:last-of-type>a {
+    margin-right: 0px;
+}
+
+/* Main */
+main {
+    background-color: #FFEB3B;
+    grid-area: main;
+    min-width: 55vw;
+}
+
+main h1,
+main h2,
+main h3,
+main h4 {
+    color: #000000;
+}
+
+/* Title */
+main h4 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+main h1 {
+    font-size: 72px;
+    line-height: 84px;
+    margin: 0;
+}
+
+main h2 {
+    font-size: 64px;
+    line-height: 75px;
+    margin: 0;
+    color: #222222;
+}
+
+main h3 {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 12px;
+    color: #252525;
+}
+
+
+/* My Works Box */
+#myworks {
+    background-color: #F44336;
+    grid-area: myworks;
+}
+
+#myworks p {
+    color: #ddd;
+    margin-bottom: 0;
+}
+
+/* Design Email  Solicit */
+#solicit {
+    background-color: #1E88E5;
+    grid-area: designsol;
+    padding: 0px;
+}
+
+#solicit .content {
+    margin: 24px 38px;
+}
+
+label {
+    display: none;
+}
+
+form {
+    display: flex;
+    width: auto;
+}
+
+input[type="email"],
+button[type="submit"] {
+    background: #1565C0;
+    border: none;
+    padding: 16px 24px;
+    color: #fff;
+    flex-grow: 1;
+}
+
+input[type="email"] {
+    padding-left: 25px;
+}
+
+/* Hire Resume */
+#resume {
+    background-color: #7CB342;
+    grid-area: hire;
+}
+
+#resume h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+#resume small {
+    font-family: "Karla", sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+#resume a {
+    margin: 24px 12px 0px 0px;
+    display: block;
+    color: #ddd;
+    border-bottom: 1px dashed #ddd;
+    width: max-content;
+}
+
+/* Footer */
+footer {
+    background-color: #323232;
+    grid-area: foot;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+footer p {
+    color: #ddd;
+    text-align: right;
+    margin: 4px 0;
+}
