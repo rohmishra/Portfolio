@@ -33,8 +33,9 @@
 #projects .project-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px 150px;
     grid-gap: 10px;
+    padding: 50px;
 } 
 
 #projects .project-container .box{

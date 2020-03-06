@@ -38,29 +38,29 @@
     text-transform: uppercase;
     font-weight: 600;
     color: white;
-    text-shadow: 4px 4px #000000;
+    /*text-shadow: 4px 4px #000000;*/
     margin-bottom: 2rem;
     z-index: 1;
     position: relative;
 }
 
 .info p {
-    color: White;
+    color: white;
     text-transform: capitalize;
     margin-bottom: 2rem;
     z-index: 1;
     position: relative;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .info a {
-    color: #0be1c1;
+    color: #6200EA;
     text-transform: uppercase;
     font-weight: 600;
     font-weight: .9rem;
     text-decoration: none;
     padding-bottom: 5px;
-    border-bottom: 2px solid #0be1c1;
+    border-bottom: 2px solid #6200EA;
     z-index: 1;
     position: relative;
     letter-spacing: 2px;
@@ -97,5 +97,10 @@
 
     #top .img .backgroung-img {
         height: 100vh;
+    }
+
+    .info h1 {
+        font-size: 3rem;
+        
     }
 }

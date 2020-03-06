@@ -44,9 +44,10 @@
 }
 #skills .skills-container .box:hover{
     background: #37474F;
-    -webkit-box-shadow: 0px 2px 75px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 2px 75px 1px rgba(0,0,0,0.75);
-    box-shadow: 0px 2px 75px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+    box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+
 }
 
 #skills .skills-container .box .fas{
@@ -96,10 +97,11 @@
     }
 
     #skills .skills-container .box{
-        background: #1b3430;
-    -webkit-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
-    -moz-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
-    box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+        background: #37474F;
+        -webkit-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+        -moz-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+        box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+    
     }
 }
 /*Phones */
@@ -110,9 +112,10 @@
     }
 
     #skills .skills-container .box{
-    background: #1b3430;
-    -webkit-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
-    -moz-box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
-    box-shadow: 3px 2px 11px 9px rgba(253,16,86,0.53);
+    background: #37474F;
+    -webkit-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+    box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+
     }
 }
