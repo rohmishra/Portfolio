@@ -237,4 +237,26 @@ footer p {
             "hire"
             "foot";
     }
+
+    section,
+    footer {
+        min-height: 20vh;
+    }
+
+    nav {
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    nav a {
+        margin: 8px;
+    }
+
+    main h1,
+    main h2,
+    main h3 {
+        font-size: 32px;
+    }
+
+
 }
