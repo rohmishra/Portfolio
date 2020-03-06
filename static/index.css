@@ -222,3 +222,19 @@ footer p {
     text-align: right;
     margin: 4px 0;
 }
+
+/* Mobile Styling  */
+
+@media(max-width:680px) {
+    body {
+
+        grid-template-areas:
+            "navi"
+            "main"
+            "main"
+            "myworks"
+            "designsol"
+            "hire"
+            "foot";
+    }
+}
