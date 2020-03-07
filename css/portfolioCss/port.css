@@ -1,34 +1,38 @@
-#portfolioProjects{
+#portfolioProjects {
     padding: 60px 15px;
 }
 
-#portfolioProjects .project-image{
+#portfolioProjects .project-image {
     width: 100%;
 
 }
 
-#portfolioProjects .project-image .img{
+#portfolioProjects .project-image .img {
     width: 100%;
     height: 100vh;
     background-size: cover !important;
     background-position: center center !important;
     /* background-repeat: no-repeat !important; */
     /* background-attachment: fixed !important; */
-    
+
 }
 
-#portfolioProjects h1{
+#portfolioProjects img {
+    max-width: 80vh;
+}
+
+#portfolioProjects h1 {
     font-size: 4rem;
     font-weight: 600;
     font-style: italic;
     margin: 1.5rem;
 }
 
-#portfolioProjects .pinfo .buttons{
+#portfolioProjects .pinfo .buttons {
     padding: 20px;
 }
 
-#portfolioProjects .pinfo .buttons a{
+#portfolioProjects .pinfo .buttons a {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 3px;
@@ -38,7 +42,7 @@
     text-transform: capitalize;
 }
 
-#portfolioProjects p{
+#portfolioProjects p {
     display: inline-block;
     border-radius: 3px;
     color: #929294;
@@ -49,28 +53,26 @@
     text-transform: capitalize;
 }
 
-#portfolioProjects .technologies{
+#portfolioProjects .technologies {}
 
-}
-
-#portfolioProjects .technologies h3{
+#portfolioProjects .technologies h3 {
     font-size: 2rem;
     font-weight: 700;
     margin: 1.5rem;
     text-transform: uppercase;
 }
 
-#portfolioProjects .technologies .icons{
+#portfolioProjects .technologies .icons {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
     align-items: center;
     justify-items: center;
     padding: 20px;
 }
 
-#portfolioProjects .technologies .icons .icon img{
+#portfolioProjects .technologies .icons .icon img {
     width: 100%;
     max-width: 150px;
-    
+
 }
