@@ -7,10 +7,15 @@
 @import "education.css";
 @import "about-me.css";
 @import "footer.css";
+@import "./portfolioCss/port.css";
 
 body {
     background: #1d1d1d;  /* fallback for old browsers */
       
+}
+
+.container{
+    padding: 50px;
 }
 
 nav{
