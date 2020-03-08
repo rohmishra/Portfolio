@@ -10,18 +10,21 @@
 @import "./portfolioCss/port.css";
 
 body {
-    background: #1d1d1d;  /* fallback for old browsers */
+    background-color: #1B1661;
       
 }
 
 .container{
-    padding: 50px;
+    padding: 20px 70px;
+    
+    
 }
 
 nav{
     display: flex;
-    padding: 20px;
+    padding: 9px;
     justify-content: space-between;
+    background-color: #4E4DD1;
 }
 
 

@@ -1,10 +1,12 @@
 #top {
     padding: 80px, 0;
+    background-color: #1B1661;
 }
 
-#top .container {
+#top .container1 {
     position: relative !important;
     height: 100vh;
+
 }
 
 #top canvas,

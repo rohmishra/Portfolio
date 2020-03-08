@@ -1,15 +1,15 @@
 #skills{
-    padding: 80px 15px;
+    padding: 20px 0;
 }
 
 #skills .title{
     position: relative;
     width: 240px;
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 60px auto;
 }
 
 /*#skills .title .circle{
@@ -35,6 +35,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
+    padding: 10px 80px;
 } 
 
 #skills .skills-container .box{
@@ -43,10 +44,10 @@
     padding: 40px;
 }
 #skills .skills-container .box:hover{
-    background: #37474F;
-    -webkit-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
-    box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+    background: #4E4DD1;
+    -webkit-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
+    -moz-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
+    box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
 
 }
 
@@ -97,10 +98,10 @@
     }
 
     #skills .skills-container .box{
-        background: #37474F;
-        -webkit-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
-        -moz-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
-        box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+        background: #4E4DD1;
+        -webkit-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
+        -moz-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
+        box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
     
     }
 }
@@ -112,10 +113,10 @@
     }
 
     #skills .skills-container .box{
-    background: #37474F;
-    -webkit-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
-    box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+        background: #4E4DD1;
+        -webkit-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
+        -moz-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
+        box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
 
     }
 }

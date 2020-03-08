@@ -1,5 +1,5 @@
 #about-me{
-    padding: 80px 15px;
+    padding: 20px 0;
 }
 
 
@@ -32,20 +32,17 @@
     letter-spacing: 4px;
 }
 
-/*#about-me .about-me-container{
-    display: grid;
-    grid-template-columns: 1fr;
+#about-me .about-me-container{
+    padding: 10px 80px;
     
-    padding: 100px 0;
-    
-}*/
+}
 
 #about-me .about-me-container .test-center{
-    background: #37474F;
+    background: #4E4DD1;
     padding: 60px;
-    -webkit-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
-    box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+    --webkit-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
+    -moz-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
+    box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
 
 }
 

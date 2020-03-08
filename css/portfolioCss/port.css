@@ -3,17 +3,13 @@
 }
 
 #portfolioProjects .project-image {
-    width: 100%;
-
+    display: flex;
+    justify-content: center;
 }
 
 #portfolioProjects .project-image .img {
-    width: 100%;
-    height: 100vh;
-    background-size: cover !important;
-    background-position: center center !important;
-    /* background-repeat: no-repeat !important; */
-    /* background-attachment: fixed !important; */
+    
+    
 
 }
 
