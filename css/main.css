@@ -118,7 +118,9 @@ nav .menu-button{
 }
 
 @media only screen and (max-width: 960px) {
-    
+    .container {
+        padding: 20px 0px;
+    }
 }
 
 /* Phones */
