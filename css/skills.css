@@ -22,10 +22,10 @@
 }*/
 
 #skills .title h1{
-    font-size: 3rem;
+    font-size: 4rem;
     text-transform: uppercase;
     font-weight: 700;
-    color: #0be1c1;
+    color: #020202;
     z-index: 1;
     position: relative;
     letter-spacing: 4px;
