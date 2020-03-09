@@ -7,11 +7,6 @@
     justify-content: center;
 }
 
-#portfolioProjects .project-image .img {
-    
-    
-
-}
 
 #portfolioProjects img {
     max-width: 80vw;
@@ -36,6 +31,11 @@
     background: red;
     text-decoration: none;
     text-transform: capitalize;
+    transition: all .3s ease-in-out;
+}
+
+#portfolioProjects .pinfo .buttons a:hover {
+    background: #020202;
 }
 
 #portfolioProjects p {

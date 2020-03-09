@@ -56,13 +56,13 @@
 }
 
 .info a {
-    color: #6200EA;
+    color: #0be1c1;
     text-transform: uppercase;
     font-weight: 600;
     font-weight: .9rem;
     text-decoration: none;
     padding-bottom: 5px;
-    border-bottom: 2px solid #6200EA;
+    border-bottom: 2px solid #0be1c1;
     z-index: 1;
     position: relative;
     letter-spacing: 2px;
