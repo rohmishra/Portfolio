@@ -28,14 +28,14 @@
     padding: 10px 20px;
     border-radius: 3px;
     color: white;
-    background: red;
+    background: #020202;
     text-decoration: none;
     text-transform: capitalize;
     transition: all .3s ease-in-out;
 }
 
 #portfolioProjects .pinfo .buttons a:hover {
-    background: #020202;
+    background: red;
 }
 
 #portfolioProjects p {
@@ -67,8 +67,60 @@
     padding: 20px;
 }
 
+#portfolioProjects .technologies .icons img{
+    filter: grayscale(100%);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}    
+
+#portfolioProjects .technologies .icons img:hover{
+    filter: grayscale(0);
+}    
+
+
 #portfolioProjects .technologies .icons .icon img {
     width: 100%;
     max-width: 150px;
 
+}
+
+
+@media only screen and (max-width: 960px) {
+    
+    #portfolioProjects h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #portfolioProjects p {
+        font-size: 1rem;
+    }
+
+    #portfolioProjects .pinfo .buttons {
+        padding: 20px;
+    }
+
+    #portfolioProjects  h3 {
+        text-align: center;
+    }
+    
+
+}
+
+/* Phones */
+
+@media only screen and (max-width: 767px) {
+    #portfolioProjects .pinfo .buttons{
+        text-align: center;
+    }
+
+    #portfolioProjects .pinfo .buttons a {
+        margin-bottom: 10px;
+    }
+    
+    #portfolioProjects .technologies .icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
 }
