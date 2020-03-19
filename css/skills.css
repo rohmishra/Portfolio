@@ -1,8 +1,8 @@
-#skills{
+#skills {
     padding: 20px 0;
 }
 
-#skills .title{
+#skills .title {
     position: relative;
     width: 240px;
     height: 100px;
@@ -21,7 +21,7 @@
     top: 23px;
 }*/
 
-#skills .title h1{
+#skills .title h1 {
     font-size: 4rem;
     text-transform: uppercase;
     font-weight: 700;
@@ -31,93 +31,96 @@
     letter-spacing: 4px;
 }
 
-#skills .skills-container{
+#skills .skills-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
     padding: 10px 80px;
-} 
+}
 
-#skills .skills-container .box{
+#skills .skills-container .box {
     background: rgba(255, 255, 255, 0);
     transition: all .4s ease-in-out;
     padding: 40px;
 }
-#skills .skills-container .box:hover{
+
+#skills .skills-container .box:hover {
     background: #4E4DD1;
-    -webkit-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
-    -moz-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
-    box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
+    -webkit-box-shadow: 0px 8px 19px 6px rgba(2, 2, 2, 1);
+    -moz-box-shadow: 0px 8px 19px 6px rgba(2, 2, 2, 1);
+    box-shadow: 0px 8px 19px 6px rgba(2, 2, 2, 1);
 
 }
 
-#skills .skills-container .box .fas{
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #0be1c1;  
-}
-
-#skills .skills-container .box .fab{
+#skills .skills-container .box .fas {
     font-size: 2rem;
     margin-bottom: 2rem;
     color: #0be1c1;
 }
 
-#skills .skills-container .box h5{
+#skills .skills-container .box .fab {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #0be1c1;
+}
+
+#skills .skills-container .box h5 {
     font-size: 0.9rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 2rem;
+    color: #fff;
 
 }
 
-#skills .skills-container .box p{
+#skills .skills-container .box p {
     font-size: 1rem;
     line-height: 1.5;
     color: #CFD8DC;
 }
 
-#skills .skills-container .box.blue{
+#skills .skills-container .box.blue {
     border-bottom: 2px solid #52b8ff;
 }
 
-#skills .skills-container .box.green{
+#skills .skills-container .box.green {
     border-bottom: 2px solid #52b8ff;
 }
 
-#skills .skills-container .box.red{
+#skills .skills-container .box.red {
     border-bottom: 2px solid #52b8ff;
 }
 
 /*Tablets */
 
-@media only screen and (max-width: 960px){
-    #skills .skills-container{
+@media only screen and (max-width: 960px) {
+    #skills .skills-container {
         grid-template-columns: 100%;
         padding: 10px 60px;
     }
 
-    #skills .skills-container .box{
+    #skills .skills-container .box {
         background: #4E4DD1;
-        -webkit-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
-        -moz-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
-        box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
-    
+        -webkit-box-shadow: 0px 8px 19px 6px rgba(2, 2, 2, 1);
+        -moz-box-shadow: 0px 8px 19px 6px rgba(2, 2, 2, 1);
+        box-shadow: 0px 8px 19px 6px rgba(2, 2, 2, 1);
+
     }
 }
+
 /*Phones */
 
-@media only screen and (max-width: 767px){
-    #skills .skills-container{
+@media only screen and (max-width: 767px) {
+    #skills .skills-container {
         grid-template-columns: 100%;
     }
 
-    #skills .skills-container .box{
+    #skills .skills-container .box {
         background: #4E4DD1;
-        -webkit-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
-        -moz-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
-        box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
+        -webkit-box-shadow: 0px 8px 19px 6px rgba(2, 2, 2, 1);
+        -moz-box-shadow: 0px 8px 19px 6px rgba(2, 2, 2, 1);
+        box-shadow: 0px 8px 19px 6px rgba(2, 2, 2, 1);
 
     }
 }
