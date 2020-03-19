@@ -1,9 +1,9 @@
-#about-me{
+#about-me {
     padding: 20px 0;
 }
 
 
-#about-me .title{
+#about-me .title {
     position: relative;
     width: 240px;
     height: 200px;
@@ -16,7 +16,7 @@
 
 
 
-#about-me .title h1{
+#about-me .title h1 {
     font-size: 4rem;
     text-transform: uppercase;
     font-weight: 700;
@@ -26,111 +26,109 @@
     letter-spacing: 4px;
 }
 
-#about-me .about-me-container{
+#about-me .about-me-container {
     padding: 10px 80px;
-    
+
 }
 
-#about-me .about-me-container .test-center{
+#about-me .about-me-container .test-center {
     background: #4E4DD1;
     padding: 60px;
-    --webkit-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
-    -moz-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
-    box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
+    --webkit-box-shadow: 0px 8px 19px 6px rgba(8, 8, 8, 0.8);
+    -moz-box-shadow: 0px 8px 19px 6px rgba(8, 8, 8, 0.8);
+    box-shadow: 0px 8px 19px 6px rgba(8, 8, 8, 0.8);
 
 }
 
-#about-me .about-me-container .test-center .header{
+#about-me .about-me-container .test-center .header {
     display: flex;
     padding-bottom: 50px;
-    
-    
+
+
 }
 
-#about-me .about-me-container .test-center .header .image{
+#about-me .about-me-container .test-center .header .image {
     width: 150px;
     height: 150px;
     background-position: center center !important;
     background-repeat: no-repeat !important;
-    background-size: cover !important; 
+    background-size: cover !important;
 }
 
-#about-me .about-me-container .test-center .header .image img{
+#about-me .about-me-container .test-center .header .image img {
     width: 150px;
-    
-     
+
+
 }
 
-#about-me .about-me-container .test-center .header .info1{
+#about-me .about-me-container .test-center .header .info1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding-left: 40px;
-     
+
 }
 
-#about-me .about-me-container .test-center .header .info1 h4{
+#about-me .about-me-container .test-center .header .info1 h4 {
     color: #0be1c1;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 1rem;
-    font-size: 2rem; 
+    font-size: 2rem;
 }
 
-#about-me .about-me-container .test-center .header .info1 span{
+#about-me .about-me-container .test-center .header .info1 span {
     color: #fd1056;
     font-weight: 400;
     text-transform: capitalize;
     letter-spacing: 2px;
     letter-spacing: 2px;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
 }
 
-#about-me .about-me-container .test-center p{
+#about-me .about-me-container .test-center p {
     color: #CFD8DC;
     font-weight: 400;
     letter-spacing: 2px;
     line-height: 1.7;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
 }
 
 
 /*Tablets */
 
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 960px) {
     #about-me .about-me-container {
         padding: 10px 60px;
     }
-    
+
 }
+
 /*Phones */
 
-@media only screen and (max-width: 767px){
-    #about-me .about-me-container .test-center{
-        background: #4E4DD1;
+@media only screen and (max-width: 767px) {
+    #about-me .about-me-container .test-center {
         padding: 20px;
-        --webkit-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
-        -moz-box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
-        box-shadow: 0px 8px 19px 6px rgba(2,2,2,1);
-    
+
     }
-    #about-me .about-me-container .test-center .header .image{
+
+    #about-me .about-me-container .test-center .header .image {
         display: none;
     }
 
-    #about-me .about-me-container .test-center .header .info1 h4{
-        
-        font-size: 1rem; 
+    #about-me .about-me-container .test-center .header .info1 h4 {
+
+        font-size: 1rem;
     }
-    
-    #about-me .about-me-container .test-center .header .info1 span{
-        
-        font-size: 0.8rem; 
+
+    #about-me .about-me-container .test-center .header .info1 span {
+
+        font-size: 0.8rem;
     }
-    
-    #about-me .about-me-container .test-center p{
-       
-        font-size: 0.7rem; 
+
+    #about-me .about-me-container .test-center p {
+
+        font-size: 0.7rem;
     }
 }

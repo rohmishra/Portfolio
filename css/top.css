@@ -30,7 +30,7 @@
     padding: 15px;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
@@ -61,11 +61,12 @@
     font-weight: 600;
     font-weight: .9rem;
     text-decoration: none;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #0be1c1;
+    padding-bottom: 2px;
+    border-bottom: 2px dashed #0be1c1;
     z-index: 1;
     position: relative;
     letter-spacing: 2px;
+    margin-bottom: 2px;
 }
 
 
@@ -103,6 +104,6 @@
 
     .info h1 {
         font-size: 3rem;
-        
+
     }
 }
