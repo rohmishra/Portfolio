@@ -11,23 +11,28 @@
 
 body {
     background-color: #1B1661;
-      
+
 }
 
-.container{
+.container {
     padding: 20px 70px;
-    
-    
+
+
 }
 
-nav{
+nav {
     display: flex;
     padding: 9px;
+    width: 100vw;
+    position: fixed;
     justify-content: space-between;
     /* background-color: #4E4DD1; */
-    background: #005C97;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #005C97;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #363795, #005C97);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #363795, #005C97);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 
@@ -36,29 +41,29 @@ nav{
 }
 
 
-nav .logo{
+nav .logo {
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
     color: white;
     padding: 15px 20px;
-    
+
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: white;
 }
 
 
 
-nav a:hover{
+nav a:hover {
     color: #FFAB00;
-    
-    
+
+
 }
 
-nav .header-menu{
+nav .header-menu {
     font-size: 1rem;
     text-decoration: uppercase;
     text-decoration: none;
@@ -66,8 +71,8 @@ nav .header-menu{
     justify-content: center;
     align-items: center;
 }
-    
-nav .header-menu a{
+
+nav .header-menu a {
     font-size: 1rem;
     text-decoration: uppercase;
     text-decoration: none;
@@ -76,11 +81,11 @@ nav .header-menu a{
     transition: all .3s ease-in-out;
 }
 
-nav .header-menu a:hover{
+nav .header-menu a:hover {
     color: #FFAB00;
 }
 
-nav .menu-button{
+nav .menu-button {
     color: #FFAB00;
     display: flex;
     justify-content: center;
@@ -90,7 +95,7 @@ nav .menu-button{
     display: none;
 }
 
-.mobile-menu{
+.mobile-menu {
     background-color: #1d1d1d;
     display: flex;
     flex-direction: column;
@@ -102,24 +107,24 @@ nav .menu-button{
     z-index: 10;
     transform: translate3d(-100%, 0, 0);
     transition: all .4s ease-in-out;
-    
+
 }
 
-.mobile-menu.active{
+.mobile-menu.active {
     transform: translate3d(0, 0, 0);
-    -webkit-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
-    box-shadow: 0px 2px 27px 14px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 2px 27px 14px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 2px 27px 14px rgba(0, 0, 0, 1);
+    box-shadow: 0px 2px 27px 14px rgba(0, 0, 0, 1);
 }
 
-.mobile-menu a{
+.mobile-menu a {
     padding: 15px;
     text-decoration: none;
     color: white;
 }
 
 
-.mobile-menu a:hover{
+.mobile-menu a:hover {
     padding: 15px;
     text-decoration: none;
     color: #FFAB00;
@@ -134,11 +139,11 @@ nav .menu-button{
 /* Phones */
 
 @media only screen and (max-width: 767px) {
-    nav .header-menu{
+    nav .header-menu {
         display: none;
     }
 
-    nav .menu-button{
+    nav .menu-button {
         display: flex;
     }
 }
